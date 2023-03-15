@@ -16,7 +16,7 @@ router.get('/', (req, res) => {
 
 router.get('/:id', async (req, res) => {
     console.log(`Request received for retrieving product with id: ${req.params.id}`)
-
+    let product;
     try {
         product = await getProduct(req.params.id);
     } catch (error) {
