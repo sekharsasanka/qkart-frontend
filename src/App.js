@@ -10,7 +10,7 @@ import Thanks from "./components/Thanks";
 import ipConfig from "./ipConfig.json";
 
 export const config = {
-  endpoint: `https://qkart-backend-x9c0.onrender.com`,
+  endpoint: `https://qkart-backend-fqe4.onrender.com/v1`,
 };
 
 export default function App(props) {
